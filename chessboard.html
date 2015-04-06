@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+       <link href='css/styles.css' rel='stylesheet' type='text/css'>
+       <script src='js/jquery-1.11.2.js'></script>
+       <script src='js/scripts.js'></script>
+    <title>Chessboard</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>Queen attack!</h1>
+
+        <h3>Enter your coordinates to play out this extreme duel</h3>
+
+        <form id='chessboard'>
+            <div class='form-group'>
+                <label for='queen_x'>Queen x-coordinate</label>
+                <input id='queen_x' name='queen_x' type="text">
+                <label for='queen_y'>Queen y-coordinate</label>
+                <input id='queen_y' name='queen_y' type="text">
+                <label for='target_x'>Target x-coordinate</label>
+                <input id='target_x' name='queen_x' type="text">
+                <label for='target_y'>Target y-coordinate</label>
+                <input id='target_y' name='target_y' type="text"><br>
+                <button type="submit" class="btn btn-success">Go</button>
+            </div>
+        </form>
+
+        <div id='result'>
+            <p>Your queen is <span class='not'></span> in range of the target.</p>
+        </div>
+    </div>
+</body>
+</htmL>
